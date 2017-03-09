@@ -1,0 +1,1 @@
+OUR_PROJECTS = ['BRF', 'CRB', 'MCO', 'ORCL', 'JT', 'SGO']
