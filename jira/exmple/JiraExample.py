@@ -73,7 +73,7 @@ def clear_not_our_tickets(inside_tickets):
 
     return inside_tickets
 
-jira = JIRA(server='https://dit.rencredit.ru/jira', basic_auth=('ext_azhuravlev2', 'v1011628QSX'), validate=True)
+jira = JIRA(server='https://dit.rencredit.ru/jira', basic_auth=('ext_azhuravlev2', '**'), validate=True)
 
 issues = get_outside_issues('REL-330')
 issues = clear_not_our_tickets(issues)
